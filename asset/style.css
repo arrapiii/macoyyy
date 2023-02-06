@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Acme', sans-serif;
+    overflow-x: hidden;
+}
+
+.container-2 {
+    background-color: #598EF3;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    box-sizing: border-box;
+}
+
+.container-2 .konten-2 {
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+.container-2 .konten-2 h2{
+    font-size: 40px;
+}
+
+.container-2 .konten-2 h4{
+    font-size: 20px;
+    padding-top: 1rem;
+}
+
+.container-2 .konten-2 p{
+    font-size: 18px;
+    margin-top: 1.5rem;
+    padding-top: 15px;
+    background-color: #111C2C;
+    border-radius: 30px;
+    height: 2.5rem;
+    width: 10rem;
+    margin-left: 44%;
+}
+
+.container-2 .konten-2 img {
+    scale: 50%;
+    position: absolute;
+    bottom: 20%;
+    left: 77%;
+}
+
+.container-3 {
+    background-color: #13141F;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    box-sizing: border-box;
+}
+
+.container-3 .konten-3 {
+    text-align: left;
+    margin-left: 35%;
+    padding-top: 7rem;
+}
+
+.container-3 .konten-3 p{
+    padding-top: 1rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 100;
+    color: #808080;
+}
+
+.container-4 {
+    background-color: #21212C;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    box-sizing: border-box;
+}
+
+.container-4 .konten-4 {
+    text-align: center;
+}
+
+.container-4 .konten-4 h2 {
+    padding-top: 4rem;
+}
+
+.grid {
+    width: 95%;
+    margin: 0 15px 0;
+    padding-bottom: 10px;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    align-items: start;
+    /* overflow: scroll; */
+  }
+  
+  .grid-item {
+    /* background-color: #fff; */
+    border-radius: 0.4rem;
+    overflow: hidden;
+    /* box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1); */
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 6rem;
+    margin-left: 10px;
+  }
+  
+  .grid-item h1 {
+    font-size: 18px;
+  }
+  
+  /* .grid-item:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 2rem 4rem rgba(255, 253, 253, 0.5);
+  } */
+  
+  .card-img {
+    display: none;
+    width: 100%;
+    height: 8rem;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-header {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    /* margin-bottom: 1.5rem; */
+    text-align: center;
+  }
+  
+  .container-4 .konten-4 p{
+    padding-top: 1rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 100;
+    color: #808080;
+}
+
+.container-5 {
+    background-color: #13141F;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    box-sizing: border-box;
+}
+
+.container-5 .konten-5 {
+    padding-top: 4rem;
+    margin-left: 11%;
+}
+
+.container-5 .konten-5 h1 {
+    padding-bottom: 1.5rem;
+}
+
+.container-5 .konten-5 p {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 100;
+    color: #808080;
+}
+
+.container-5 .konten-5 a {
+    color: #598EF3;
+}
+
+.container-5 .konten-5 p:nth-last-child(1) {
+    margin-top: 1.5rem;
+}
+
+.container-6 {
+    background-color: #21212C;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    box-sizing: border-box;
+}
+
+.container-6 .konten-6 {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.container-6 .konten-6 p {
+    padding-top: 1rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 100;
+    color: #808080;
+}
+
+.container-6 .konten-6 p:nth-last-child(1) {
+    color: white;
+    font-size: 18px;
+    margin-top: 1.5rem;
+    padding-top: 15px;
+    background-color: #598EF3;
+    border-radius: 30px;
+    height: 2.5rem;
+    width: 10rem;
+    margin-left: 44%;
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+    /* display: none; */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(174, 174, 174); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: grey; 
+  }
